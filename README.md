@@ -28,7 +28,7 @@ nasa-apod-react/ │ ├── public/ │ └── index.html ├── src/ �
 
 ### 1. Clone o repositório e encontre o arquivo
 
-git clone https://github.com/seu-usuario/nasa-apod-react.git
+gh repo clone mauriciosfyt/api_nasa
 cd nasa-apod-react
 
 ### 2. instale as dependências
