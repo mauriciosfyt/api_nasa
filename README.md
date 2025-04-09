@@ -1,25 +1,42 @@
-# 🌌 DOCUMENTAÇÃO DO PROJETO - CONSUMO DA API DA NASA (APOD) COM REACT
+# 🌌 Projeto React - Consumo da API APOD da NASA
 
-## 1. 📄 Descrição do Projeto
+## 1. 📖 Descrição do Projeto
 
-Este projeto tem como objetivo criar uma aplicação web em **React** que consome a API **Astronomy Picture of the Day (APOD)** da **NASA**, exibindo uma imagem ou vídeo do espaço diariamente, junto com título e descrição fornecidos por astrônomos.
+Este projeto consiste em uma aplicação web feita com **React** que consome a API [Astronomy Picture of the Day (APOD)](https://api.nasa.gov/) da NASA. A aplicação exibe uma imagem ou vídeo do espaço diariamente, acompanhada de título, data e descrição fornecidos por astrônomos da NASA.
 
 ---
 
 ## 2. 🛠️ Tecnologias Utilizadas
 
-- **Linguagem:** JavaScript (ES6+)
-- **Framework:** React
-- **Gerenciador de pacotes:** npm ou yarn
-- **Bibliotecas:**
-  - `axios` – Para chamadas HTTP à API
-  - `dotenv` (opcional) – Para carregar variáveis de ambiente localmente
+- **Linguagem**: JavaScript (ES6+)
+- **Framework**: React
+- **Gerenciador de pacotes**: npm 
+- **Bibliotecas**:
+  - [`axios`](https://www.npmjs.com/package/axios) – Para chamadas HTTP
 
----
+
 
 ## 3. 📁 Estrutura de Pastas
 
-nasa-apod-react/ │ ├── public/ │ └── index.html ├── src/ │ ├── components/ │ │ └── ApodViewer.jsx │ ├── services/ │ │ └── nasaApi.js │ ├── App.js │ ├── index.js │ └── .env ├── package.json └── README.md
+nasa-apod-react/
+│
+├── public/
+│   └── index.html
+│
+├── src/
+│   ├── components/
+│   │   └── ApodViewer.jsx         # Componente principal que exibe o conteúdo da API
+│   │
+│   ├── services/
+│   │   └── nasaApi.js             # Função para fazer requisição à API da NASA
+│   │
+│   ├── App.js                     # Componente raiz da aplicação
+│   ├── index.js                   # Ponto de entrada da aplicação React
+│   └── .env                       # Variáveis de ambiente (API KEY)
+│
+├── .gitignore                    # Arquivos/pastas ignorados pelo Git
+├── package.json                 # Dependências e scripts do projeto
+└── README.md                    # Documentação do projeto
 
 
 ---
